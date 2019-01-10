@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'fb';
+    src: url(../fonts/fb.ttf) format('truetype');
+}
+body{
+    background: url(../img/fondo.jpg) repeat;
+    background-size: cover;
+    margin: 0;
+}
+header{
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    color: #a50000;
+    transition: 1s;
+}
+h1:hover{
+    transform: scale(1.5);
+}
+h2{
+    text-align: center;
+    color: #a50000;
+    font-size: 2em;
+    padding: 5px;
+    transition: 1s;
+}
+h2:hover{
+    transform: scale(1.5);
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'Permanent Marker';
+    font-variant: small-caps;
+}
+section{
+    overflow: hidden;
+}
+.enlace{
+    transition: 1s;
+}
+.enlace:hover{
+    transform: scale(1.2) translateX(10%);
+}
+.separador{
+    margin-bottom: 80px;
+}
+footer{
+    background-color: #0e0d0d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: 1s;
+}
+footer:hover{
+    transform: scale(1.2);
+}
+footer p{
+    padding: 5px;
+    font-family: 'Permanent Marker';
+    font-variant: small-caps;
+    text-align: center;
+    color: #a50000;
+}
